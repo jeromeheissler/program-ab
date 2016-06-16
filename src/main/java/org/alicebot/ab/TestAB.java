@@ -11,43 +11,45 @@ import java.io.InputStreamReader;
  */
 public class TestAB {
     public static String sample_file = "sample.random.txt";
-    public static void testChat (Bot bot, boolean doWrites, boolean traceMode) {
+
+    public static void testChat(Bot bot, boolean doWrites, boolean traceMode) {
         Chat chatSession = new Chat(bot, doWrites);
         bot.brain.nodeStats();
         MagicBooleans.trace_mode = traceMode;
-        String textLine="";
+        String textLine = "";
         while (true) {
             textLine = IOUtils.readInputTextLine("Human");
-            if (textLine == null || textLine.length() < 1)  textLine = MagicStrings.null_input;
+            if (textLine == null || textLine.length() < 1) textLine = MagicStrings.null_input;
             if (textLine.equals("q")) System.exit(0);
             else if (textLine.equals("wq")) {
                 bot.writeQuit();
                 System.exit(0);
-            }
-            else if (textLine.equals("sc")) sraixCache("c:/ab/data/sraixdata6.txt", chatSession);
+            } else if (textLine.equals("sc")) sraixCache("c:/ab/data/sraixdata6.txt", chatSession);
             else if (textLine.equals("ab")) testAB(bot, sample_file);
             else {
                 String request = textLine;
-                if (MagicBooleans.trace_mode) System.out.println("STATE="+request+":THAT="+chatSession.thatHistory.get(0).get(0)+":TOPIC="+chatSession.predicates.get("topic"));
+                if (MagicBooleans.trace_mode)
+                    System.out.println("STATE=" + request + ":THAT=" + chatSession.thatHistory.get(0).get(0) + ":TOPIC=" + chatSession.predicates.get("topic"));
                 String response = chatSession.multisentenceRespond(request);
-                while (response.contains("&lt;")) response = response.replace("&lt;","<");
-                while (response.contains("&gt;")) response = response.replace("&gt;",">");
+                while (response.contains("&lt;")) response = response.replace("&lt;", "<");
+                while (response.contains("&gt;")) response = response.replace("&gt;", ">");
                 IOUtils.writeOutputTextLine("Robot", response);
                 //System.out.println("Learn graph:");
                 //bot.learnGraph.printgraph();
             }
         }
     }
-    public static void testBotChat () {
+
+    public static void testBotChat() {
         Bot bot = new Bot("alice");
-        System.out.println(bot.brain.upgradeCnt+" brain upgrades");
+        System.out.println(bot.brain.upgradeCnt + " brain upgrades");
 
         //bot.brain.printgraph();
         Chat chatSession = new Chat(bot);
         String request = "Hello.  How are you?  What is your name?  Tell me about yourself.";
         String response = chatSession.multisentenceRespond(request);
-        System.out.println("Human: "+request);
-        System.out.println("Robot: "+response);
+        System.out.println("Human: " + request);
+        System.out.println("Robot: " + response);
     }
 
     public static void runTests(Bot bot, boolean traceMode) {
@@ -64,36 +66,40 @@ public class TestAB {
         int i = 1;
         System.out.print(0);
         while (textLine != null) {
-            if (textLine == null || textLine.length() < 1)  textLine = MagicStrings.null_input;
+            if (textLine == null || textLine.length() < 1) textLine = MagicStrings.null_input;
             if (textLine.equals("q")) System.exit(0);
 
             else if (textLine.equals("wq")) {
                 bot.writeQuit();
                 System.exit(0);
-            }
-            else if (textLine.equals("ab")) testAB(bot, sample_file);
+            } else if (textLine.equals("ab")) testAB(bot, sample_file);
             else if (textLine.equals(MagicStrings.null_input)) testOutput.writeLine("");
             else if (textLine.startsWith("#")) testOutput.writeLine(textLine);
             else {
                 String request = textLine;
-                if (MagicBooleans.trace_mode) System.out.println("STATE="+request+":THAT="+chatSession.thatHistory.get(0).get(0)+":TOPIC="+chatSession.predicates.get("topic"));
+                if (MagicBooleans.trace_mode)
+                    System.out.println("STATE=" + request + ":THAT=" + chatSession.thatHistory.get(0).get(0) + ":TOPIC=" + chatSession.predicates.get("topic"));
                 String response = chatSession.multisentenceRespond(request);
-                while (response.contains("&lt;")) response = response.replace("&lt;","<");
-                while (response.contains("&gt;")) response = response.replace("&gt;",">");
+                while (response.contains("&lt;")) response = response.replace("&lt;", "<");
+                while (response.contains("&gt;")) response = response.replace("&gt;", ">");
                 testOutput.writeLine("Robot: " + response);
             }
             textLine = testInput.readLine();
 
             System.out.print(".");
             if (i % 10 == 0) System.out.print(" ");
-            if (i % 100 == 0) { System.out.println(""); System.out.print(i + " "); }
+            if (i % 100 == 0) {
+                System.out.println("");
+                System.out.print(i + " ");
+            }
             i++;
         }
         testInput.close();
         testOutput.close();
         System.out.println("");
     }
-    public static void testAB (Bot bot, String sampleFile) {
+
+    public static void testAB(Bot bot, String sampleFile) {
         MagicBooleans.trace_mode = true;
         AB ab = new AB(bot, sampleFile);
         ab.ab();
@@ -101,7 +107,7 @@ public class TestAB {
         ab.terminalInteraction();
     }
 
-    public static void testShortCuts () {
+    public static void testShortCuts() {
         //testChat(new Bot("alice"));
         //Graphmaster.enableShortCuts = false;
         //Bot bot = new Bot("alice");
@@ -114,7 +120,7 @@ public class TestAB {
     }
 
 
-    public static void sraixCache (String filename, Chat chatSession) {
+    public static void sraixCache(String filename, Chat chatSession) {
         int limit = 650000;
         MagicBooleans.cache_sraix = true;
         try {

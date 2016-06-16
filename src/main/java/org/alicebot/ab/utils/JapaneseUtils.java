@@ -15,14 +15,14 @@ public class JapaneseUtils {
     /**
      * Tokenize a fragment of the input that contains only text
      *
-     * @param fragment   fragment of input containing only text and no XML tags
-     * @return  tokenized fragment
+     * @param fragment fragment of input containing only text and no XML tags
+     * @return tokenized fragment
      */
     public static String tokenizeFragment(String fragment) {
         //System.out.println("buildFragment "+fragment);
         String result = "";
-        for(Morpheme e : Tagger.parse(fragment)) {
-            result += e.surface+" ";
+        for (Morpheme e : Tagger.parse(fragment)) {
+            result += e.surface + " ";
             //
             // System.out.println("Feature "+e.feature+" Surface="+e.surface);
         }
@@ -33,7 +33,7 @@ public class JapaneseUtils {
      * Morphological analysis of an input sentence that contains an AIML pattern.
      *
      * @param sentence
-     * @return       morphed sentence with one space between words, preserving XML markup and AIML $ operation
+     * @return morphed sentence with one space between words, preserving XML markup and AIML $ operation
      */
     public static String tokenizeSentence(String sentence) {
         //System.out.println("tokenizeSentence "+sentence);
@@ -41,7 +41,7 @@ public class JapaneseUtils {
         String result = "";
         result = tokenizeXML(sentence);
         while (result.contains("$ ")) result = result.replace("$ ", "$");
-        while (result.contains("  ")) result = result.replace("  "," ");
+        while (result.contains("  ")) result = result.replace("  ", " ");
         while (result.contains("anon ")) result = result.replace("anon ", "anon"); // for Triple Store
         result = result.trim();
         //if (MagicBooleans.trace_mode) System.out.println("tokenizeSentence '"+sentence+"'-->'"+result+"'");
@@ -52,7 +52,7 @@ public class JapaneseUtils {
         //System.out.println("tokenizeXML "+xmlExpression);
         String response = MagicStrings.template_failed;
         try {
-            xmlExpression = "<sentence>"+xmlExpression+"</sentence>";
+            xmlExpression = "<sentence>" + xmlExpression + "</sentence>";
             Node root = DomUtils.parseString(xmlExpression);
             response = recursEval(root);
         } catch (Exception e) {
@@ -60,6 +60,7 @@ public class JapaneseUtils {
         }
         return AIMLProcessor.trimTag(response, "sentence");
     }
+
     private static String recursEval(Node node) {
         try {
 
@@ -68,17 +69,18 @@ public class JapaneseUtils {
             if (nodeName.equals("#text")) return tokenizeFragment(node.getNodeValue());
             else if (nodeName.equals("sentence")) return evalTagContent(node);
             else return (genericXML(node));
-        }
-        catch (Exception ex) {
+        } catch (Exception ex) {
             ex.printStackTrace();
         }
         return "JP Morph Error";
     }
+
     public static String genericXML(Node node) {
         //System.out.println("genericXML "+node.getNodeName());
         String result = evalTagContent(node);
         return unevaluatedXML(result, node);
     }
+
     public static String evalTagContent(Node node) {
         String result = "";
         //System.out.println("evalTagContent "+node.getNodeName());
@@ -100,14 +102,14 @@ public class JapaneseUtils {
         String attributes = "";
         if (node.hasAttributes()) {
             NamedNodeMap XMLAttributes = node.getAttributes();
-            for(int i=0; i < XMLAttributes.getLength(); i++)
+            for (int i = 0; i < XMLAttributes.getLength(); i++)
 
             {
-                attributes += " "+XMLAttributes.item(i).getNodeName()+"=\""+XMLAttributes.item(i).getNodeValue()+"\"";
+                attributes += " " + XMLAttributes.item(i).getNodeName() + "=\"" + XMLAttributes.item(i).getNodeValue() + "\"";
             }
         }
         if (result.equals(""))
-            return " <"+nodeName+attributes+"/> ";
-        else return " <"+nodeName+attributes+">"+result+"</"+nodeName+"> ";   // add spaces
+            return " <" + nodeName + attributes + "/> ";
+        else return " <" + nodeName + attributes + ">" + result + "</" + nodeName + "> ";   // add spaces
     }
 }

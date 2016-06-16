@@ -2,233 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a05c24b-11aa-4291-b27b-d1745b921595" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea/ant.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea/artifacts/Ab_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea/libraries/lib.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea/libraries/lib1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/Ab_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Ab.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-codec-1.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-logging-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/hamcrest-all-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/httpclient-4.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/httpclient-cache-4.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/httpcore-4.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/httpmime-4.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jgoodies-common.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jgoodies-forms.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/joda-time-2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/json-20090211.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/junit-4.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sanmoku-0.0.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sanmoku-feature-ex-0.0.1.jar" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/animal.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/animal.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/bot_profile.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/bot_profile.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/client_profile.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/client_profile.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/contactaction.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/contactaction.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/contactfunctions.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/contactfunctions.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/date.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/date.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/dialog.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/dialog.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/familiar.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/familiar.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/firstrest.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/firstrest.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/help.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/help.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/inappropriate.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/inappropriate.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/inquiry.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/inquiry.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/insults.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/insults.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/keywords.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/keywords.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/knowledge.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/knowledge.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/lists.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/lists.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/oob.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/oob.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/personality.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/personality.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/picture.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/picture.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/profanity.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/profanity.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/reductions1.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/reductions1.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/reductions2.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/reductions2.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/reductions_update.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/reductions_update.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/roman.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/roman.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/rsvp.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/rsvp.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/sraix.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/sraix.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/sraix_combine.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/sraix_combine.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/that.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/that.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/train.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/train.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/triple.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/triple.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/udc.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/udc.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/update.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/update.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/aiml/utilities.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/utilities.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/config/copyright.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/config/copyright.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/config/denormal.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/config/denormal.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/config/gender.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/config/gender.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/config/normal.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/config/normal.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/config/person.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/config/person.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/config/person2.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/config/person2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/config/predicates.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/config/predicates.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/config/pronouns.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/config/pronouns.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/config/properties.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/config/properties.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/config/triples.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/config/triples.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/be2been.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/be2been.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/be2being.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/be2being.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/be2is.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/be2is.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/be2was.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/be2was.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/been2be.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/been2be.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/being2be.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/being2be.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/er2est.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/er2est.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/est2er.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/est2er.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/familiargender.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/familiargender.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/familiarpredicate.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/familiarpredicate.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/familiarpronoun.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/familiarpronoun.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/gendermap.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/gendermap.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/gendername.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/gendername.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/is2be.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/is2be.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/name2number.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/name2number.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/nation2capital.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/nation2capital.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/next.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/next.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/number2ordinal.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/number2ordinal.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/opposite.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/opposite.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/ordinal2number.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/ordinal2number.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/phonetic.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/phonetic.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/profile2predicate.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/profile2predicate.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/rhyme.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/rhyme.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/sign2date.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/sign2date.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/state2capital.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/state2capital.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/state2largestcity.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/state2largestcity.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/tomorrow.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/tomorrow.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/maps/was2be.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/maps/was2be.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/abc.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/abc.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/animal.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/animal.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/animals.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/animals.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/article.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/article.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/be.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/be.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/been.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/been.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/being.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/being.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/bird.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/bird.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/color.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/color.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/digit.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/digit.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/entity.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/entity.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/erdown.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/erdown.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/erup.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/erup.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/estdown.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/estdown.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/estup.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/estup.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/evildoers.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/evildoers.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/familiarname.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/familiarname.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/fastfood.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/fastfood.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/foo.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/foo.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/food.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/food.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/gender.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/gender.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/is.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/is.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/language.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/language.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/letter.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/letter.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/modal.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/modal.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/month.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/month.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/name.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/name.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/nation.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/nation.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/numbername.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/numbername.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/ordinal.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/ordinal.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/place.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/place.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/preposition.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/preposition.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/profile.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/profile.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/pronoun.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/pronoun.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/quantifier.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/quantifier.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/spatialprep.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/spatialprep.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/sphere.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/sphere.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/starsign.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/starsign.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/state.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/state.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/state2.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/state2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/was.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/was.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/weekday.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/weekday.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/wet.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/wet.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/alice2/sets/wh.txt" afterPath="$PROJECT_DIR$/src/main/resources/bots/alice2/sets/wh.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/currentevents/aiml/favorites.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/currentevents/aiml/favorites.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/currentevents/aiml/recommendations.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/currentevents/aiml/recommendations.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/currentevents/aiml/udc.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/currentevents/aiml/udc.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/jokebot/aiml/jokes.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/jokebot/aiml/jokes.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/jokebot/aiml/limericks.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/jokebot/aiml/limericks.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/wndef/aiml/default.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/wndef/aiml/default.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/wndef/aiml/wndefs0.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/wndef/aiml/wndefs0.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/wndef/aiml/wndefs1.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/wndef/aiml/wndefs1.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/wndef/aiml/wndefs10.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/wndef/aiml/wndefs10.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/wndef/aiml/wndefs11.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/wndef/aiml/wndefs11.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/wndef/aiml/wndefs12.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/wndef/aiml/wndefs12.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/wndef/aiml/wndefs13.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/wndef/aiml/wndefs13.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/wndef/aiml/wndefs14.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/wndef/aiml/wndefs14.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/wndef/aiml/wndefs15.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/wndef/aiml/wndefs15.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/wndef/aiml/wndefs2.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/wndef/aiml/wndefs2.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/wndef/aiml/wndefs3.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/wndef/aiml/wndefs3.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/wndef/aiml/wndefs4.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/wndef/aiml/wndefs4.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/wndef/aiml/wndefs5.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/wndef/aiml/wndefs5.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/wndef/aiml/wndefs6.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/wndef/aiml/wndefs6.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/wndef/aiml/wndefs7.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/wndef/aiml/wndefs7.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/wndef/aiml/wndefs8.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/wndef/aiml/wndefs8.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bots/wndef/aiml/wndefs9.aiml" afterPath="$PROJECT_DIR$/src/main/resources/bots/wndef/aiml/wndefs9.aiml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1000.txt" afterPath="$PROJECT_DIR$/src/main/resources/data/1000.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/AB.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/AB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/AIMLMap.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/AIMLMap.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/AIMLProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/AIMLProcessor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/AIMLProcessorExtension.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/AIMLProcessorExtension.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/AIMLSet.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/AIMLSet.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/Bot.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Bot.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/Category.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Category.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/Chat.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Chat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/ChatTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/alicebot/ab/ChatTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/Clause.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Clause.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/Contact.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Contact.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/EnglishNumberToWords.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/EnglishNumberToWords.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/Graphmaster.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Graphmaster.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/History.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/History.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/Inflector.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Inflector.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/InflectorTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/alicebot/ab/InflectorTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/MagicBooleans.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/MagicBooleans.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/MagicNumbers.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/MagicNumbers.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/MagicStrings.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/MagicStrings.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/MemStats.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/MemStats.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/Nodemapper.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Nodemapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/NodemapperOperator.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/NodemapperOperator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/PCAIMLProcessorExtension.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/PCAIMLProcessorExtension.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/ParseState.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/ParseState.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/Path.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Path.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/PreProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/PreProcessor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/Predicates.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Predicates.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/Properties.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Properties.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/Sraix.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Sraix.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/StarBindings.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/StarBindings.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/Stars.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Stars.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/TestAB.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/TestAB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/Timer.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Timer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/TripleStore.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/TripleStore.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/Tuple.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Tuple.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/Utilities.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Utilities.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/Verbs.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Verbs.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/utils/CalendarUtils.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/CalendarUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/utils/DomUtils.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/DomUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/utils/IOUtils.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/IOUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/utils/IntervalUtils.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/IntervalUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/utils/JapaneseUtils.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/JapaneseUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/utils/MemoryUtils.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/MemoryUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/alicebot/ab/utils/NetworkUtils.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/NetworkUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/AB.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/AB.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/AIMLMap.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/AIMLMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/AIMLProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/AIMLProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/AIMLProcessorExtension.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/AIMLProcessorExtension.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/AIMLSet.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/AIMLSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Bot.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Bot.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Category.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Category.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Chat.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Chat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Clause.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Clause.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Contact.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Contact.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/EnglishNumberToWords.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/EnglishNumberToWords.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Graphmaster.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Graphmaster.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/History.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/History.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Inflector.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Inflector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/MagicBooleans.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/MagicBooleans.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/MagicNumbers.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/MagicNumbers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/MagicStrings.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/MagicStrings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/MemStats.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/MemStats.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Nodemapper.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Nodemapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/NodemapperOperator.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/NodemapperOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/PCAIMLProcessorExtension.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/PCAIMLProcessorExtension.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/ParseState.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/ParseState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Path.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Path.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/PreProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/PreProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Predicates.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Predicates.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Properties.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Properties.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Sraix.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Sraix.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/StarBindings.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/StarBindings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Stars.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Stars.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/TestAB.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/TestAB.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Timer.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Timer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/TripleStore.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/TripleStore.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Tuple.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Tuple.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Utilities.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Utilities.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Verbs.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Verbs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/CalendarUtils.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/CalendarUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/DomUtils.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/DomUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/IOUtils.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/IOUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/IntervalUtils.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/IntervalUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/JapaneseUtils.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/JapaneseUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/MemoryUtils.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/MemoryUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/NetworkUtils.java" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/NetworkUtils.java" />
     </list>
     <ignored path="program-ab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -251,13 +68,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ChatTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/alicebot/ab/ChatTest.java">
+      <file leaf-file-name="person2.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bots/alice2/config/person2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56557375">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bot.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/Bot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.4393443">
+              <caret line="410" column="35" selection-start-line="410" selection-start-column="35" selection-end-line="410" selection-end-column="35" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#setAllPaths#0;class#Bot#0" expanded="false" />
+                <element signature="method#Bot#3;class#Bot#0" expanded="false" />
+                <element signature="method#getPronouns#0;class#Bot#0" expanded="false" />
+                <element signature="method#addMoreCategories#0;class#Bot#0" expanded="false" />
+                <element signature="method#addCategoriesFromAIML#0;class#Bot#0" expanded="false" />
+                <element signature="method#addCategoriesFromAIMLIF#0;class#Bot#0" expanded="false" />
+                <element signature="method#writeQuit#0;class#Bot#0" expanded="false" />
+                <element signature="method#readCertainIFCategories#0;class#Bot#0" expanded="false" />
+                <element signature="method#writeCertainIFCategories#0;class#Bot#0" expanded="false" />
+                <element signature="method#writeIFCategories#0;class#Bot#0" expanded="false" />
+                <element signature="method#writeAIMLIFFiles#0;class#Bot#0" expanded="false" />
+                <element signature="method#writeAIMLFiles#0;class#Bot#0" expanded="false" />
+                <element signature="method#addProperties#0;class#Bot#0" expanded="false" />
+                <element signature="method#readIFCategories#0;class#Bot#0" expanded="false" />
+                <element signature="method#addAIMLSets#0;class#Bot#0" expanded="false" />
+                <element signature="method#addAIMLMaps#0;class#Bot#0" expanded="false" />
+                <element signature="method#deleteLearnfCategories#0;class#Bot#0" expanded="false" />
+                <element signature="method#deleteLearnCategories#0;class#Bot#0" expanded="false" />
+                <element signature="method#shadowChecker#1;class#Bot#0" expanded="false" />
+                <element signature="method#instantiateSets#0;class#Bot#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -277,10 +123,53 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/TestAB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/JapaneseUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/alicebot/ab/ChatTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/AB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/AIMLMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/AIMLProcessorExtension.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/AIMLSet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Category.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Chat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Clause.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Contact.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/EnglishNumberToWords.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Graphmaster.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/History.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Inflector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/MagicBooleans.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/MagicNumbers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/MagicStrings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/MemStats.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Nodemapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/NodemapperOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/ParseState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Path.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/PCAIMLProcessorExtension.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Predicates.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/PreProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Properties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Sraix.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/StarBindings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Stars.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/TestAB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Timer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/TripleStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Tuple.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Utilities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Verbs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/CalendarUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/DomUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/IntervalUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/IOUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/JapaneseUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/MemoryUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/NetworkUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/bots/geeek/aiml/apparence.aiml" />
+        <option value="$PROJECT_DIR$/src/main/resources/bots/geeek/aiml/cest.aiml" />
+        <option value="$PROJECT_DIR$/src/main/resources/bots/geeek/aiml/sexe.aiml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/Bot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alicebot/ab/AIMLProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
       </list>
     </option>
   </component>
@@ -326,8 +215,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -363,6 +253,102 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="program-ab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="program-ab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="program-ab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="program-ab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bots" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="program-ab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="program-ab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bots" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aiml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="program-ab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="program-ab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -390,7 +376,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="program-ab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="program-ab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -402,109 +410,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="program-ab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="program-ab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="program-ab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="program-ab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bots" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="program-ab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="program-ab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bots" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alice2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="program-ab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="program-ab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -524,7 +431,22 @@
       <recent name="$PROJECT_DIR$/src/test/java/org/alicebot/ab" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="program-ab" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -1034,6 +956,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -1063,6 +990,14 @@
       <envs />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="modificationStamps">
@@ -1090,48 +1025,52 @@
       <created>1466067564560</created>
       <option name="number" value="Default" />
       <updated>1466067564560</updated>
-      <workItem from="1466067566137" duration="1567000" />
+      <workItem from="1466067566137" duration="1652000" />
+      <workItem from="1466087216272" duration="60000" />
+      <workItem from="1466087975405" duration="4207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1567000" />
+    <option name="totallyTimeSpent" value="5919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="730" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5470219" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1139,39 +1078,231 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/NetworkUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/TestAB.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/EnglishNumberToWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.975">
-          <caret line="26" column="97" selection-start-line="26" selection-start-column="97" selection-end-line="26" selection-end-column="97" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/Graphmaster.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3617021">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/History.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/Inflector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1421568">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/MagicBooleans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/MagicNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/MemStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/Nodemapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/NodemapperOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/ParseState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/PCAIMLProcessorExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/Predicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/PreProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/Sraix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.2375">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1340#1356#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/StarBindings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/Stars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/TripleStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#324#340#0" expanded="false" />
+            <element signature="e#407#423#0" expanded="false" />
+            <element signature="e#499#524#0" expanded="false" />
+            <element signature="e#602#627#0" expanded="false" />
+            <element signature="e#702#727#0" expanded="false" />
+            <element signature="e#4869#4870#0" expanded="false" />
+            <element signature="e#4930#4931#0" expanded="false" />
+            <element signature="e#5956#5957#0" expanded="false" />
+            <element signature="e#6000#6001#0" expanded="false" />
+            <element signature="e#8231#8239#0" expanded="false" />
+            <element signature="e#8526#8534#0" expanded="false" />
+            <element signature="e#8820#8828#0" expanded="false" />
+            <element signature="e#10239#10246#0" expanded="false" />
+            <element signature="e#12431#12438#0" expanded="false" />
+            <element signature="e#13212#13219#0" expanded="false" />
+            <element signature="e#13495#13503#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/Tuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/Verbs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/CalendarUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/IntervalUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/IOUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1179,13 +1310,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/MemoryUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/NetworkUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0686274">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/bots/alice2/aiml/oob.aiml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/personality.aiml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1193,28 +1340,193 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/MagicStrings.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/roman.aiml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7295082">
-          <caret line="102" column="34" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/alice2/aiml/date.aiml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.75980395">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/geeek/aiml/apparence.aiml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="n#condition#0;n#template#0;n#category#0;n#aiml#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="138" column="25" selection-start-line="138" selection-start-column="25" selection-end-line="138" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/geeek/aiml/cest.aiml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3164557">
+          <caret line="44" column="74" selection-start-line="44" selection-start-column="67" selection-end-line="44" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/geeek/aiml/sexe.aiml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-153.125">
+          <caret line="260" column="33" selection-start-line="260" selection-start-column="33" selection-end-line="260" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/src.zip!/java/io/FileWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.2413793">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1338" column="19" selection-start-line="1338" selection-start-column="19" selection-end-line="1338" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/utils/DomUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33239436">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/Chat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33239436">
+          <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/bots/geeek/aimlif/sexe.aiml.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8735632">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/TestAB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45210728">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62786883">
-          <caret line="85" column="99" selection-start-line="85" selection-start-column="99" selection-end-line="85" selection-end-column="99" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/alicebot/ab/ChatTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/french_aiml_publish/aiml/that_ed.aiml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56557375">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state vertical-scroll-proportion="11.875">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/french_aiml_publish/aiml/pourquoi_ed.aiml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.875">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/french_aiml_publish/aiml/estu_ed.aiml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="94.375">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/french_aiml_publish/aiml/humour_ed.aiml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="13.75">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/MagicStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/AIMLProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5095785">
+          <caret line="197" column="32" selection-start-line="197" selection-start-column="32" selection-end-line="197" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/alice2/config/person2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/Bot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4393443">
+          <caret line="410" column="35" selection-start-line="410" selection-start-column="35" selection-end-line="410" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#setAllPaths#0;class#Bot#0" expanded="false" />
+            <element signature="method#Bot#3;class#Bot#0" expanded="false" />
+            <element signature="method#getPronouns#0;class#Bot#0" expanded="false" />
+            <element signature="method#addMoreCategories#0;class#Bot#0" expanded="false" />
+            <element signature="method#addCategoriesFromAIML#0;class#Bot#0" expanded="false" />
+            <element signature="method#addCategoriesFromAIMLIF#0;class#Bot#0" expanded="false" />
+            <element signature="method#writeQuit#0;class#Bot#0" expanded="false" />
+            <element signature="method#readCertainIFCategories#0;class#Bot#0" expanded="false" />
+            <element signature="method#writeCertainIFCategories#0;class#Bot#0" expanded="false" />
+            <element signature="method#writeIFCategories#0;class#Bot#0" expanded="false" />
+            <element signature="method#writeAIMLIFFiles#0;class#Bot#0" expanded="false" />
+            <element signature="method#writeAIMLFiles#0;class#Bot#0" expanded="false" />
+            <element signature="method#addProperties#0;class#Bot#0" expanded="false" />
+            <element signature="method#readIFCategories#0;class#Bot#0" expanded="false" />
+            <element signature="method#addAIMLSets#0;class#Bot#0" expanded="false" />
+            <element signature="method#addAIMLMaps#0;class#Bot#0" expanded="false" />
+            <element signature="method#deleteLearnfCategories#0;class#Bot#0" expanded="false" />
+            <element signature="method#deleteLearnCategories#0;class#Bot#0" expanded="false" />
+            <element signature="method#shadowChecker#1;class#Bot#0" expanded="false" />
+            <element signature="method#instantiateSets#0;class#Bot#0" expanded="false" />
           </folding>
         </state>
       </provider>

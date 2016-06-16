@@ -27,20 +27,18 @@ import java.util.HashMap;
 
 public class Main {
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
+        MagicStrings.setRootPath(new File(Main.class.getResource("/bots").getPath()).getParentFile().getAbsolutePath());
 
-
-
-        MagicStrings.setRootPath();
-
-        AIMLProcessor.extension =  new PCAIMLProcessorExtension();
+        AIMLProcessor.extension = new PCAIMLProcessorExtension();
         mainFunction(args);
     }
-    public static void mainFunction (String[] args) {
-        String botName = "alice2";
+
+    public static void mainFunction(String[] args) {
+        String botName = "french_aiml_publish";
         MagicBooleans.jp_tokenize = false;
         MagicBooleans.trace_mode = true;
-        String action="chat";
+        String action = "chat";
         System.out.println(MagicStrings.program_name_version);
         for (String s : args) {
             //System.out.println(s);
@@ -61,7 +59,7 @@ public class Main {
                         MagicBooleans.jp_tokenize = false;
                     }
                 }
-             }
+            }
         }
         if (MagicBooleans.trace_mode) System.out.println("Working Directory = " + MagicStrings.root_path);
         Graphmaster.enableShortCuts = true;
@@ -73,28 +71,34 @@ public class Main {
         //bot.preProcessor.normalizeFile("c:/ab/data/log2.txt", "c:/ab/data/log2normal.txt");
         //System.exit(0);
         if (bot.brain.getCategories().size() < MagicNumbers.brain_print_size) bot.brain.printgraph();
-        if (MagicBooleans.trace_mode) System.out.println("Action = '"+action+"'");
+        if (MagicBooleans.trace_mode) System.out.println("Action = '" + action + "'");
         if (action.equals("chat") || action.equals("chat-app")) {
-			boolean doWrites = ! action.equals("chat-app");
-			TestAB.testChat(bot, doWrites, MagicBooleans.trace_mode);
-		}
+            boolean doWrites = !action.equals("chat-app");
+            TestAB.testChat(bot, doWrites, MagicBooleans.trace_mode);
+        }
         //else if (action.equals("test")) testSuite(bot, MagicStrings.root_path+"/data/find.txt");
         else if (action.equals("ab")) TestAB.testAB(bot, TestAB.sample_file);
         else if (action.equals("aiml2csv") || action.equals("csv2aiml")) convert(bot, action);
-        else if (action.equals("abwq")){AB ab = new AB(bot, TestAB.sample_file);  ab.abwq();}
-		else if (action.equals("test")) { TestAB.runTests(bot, MagicBooleans.trace_mode);     }
-        else if (action.equals("shadow")) { MagicBooleans.trace_mode = false; bot.shadowChecker();}
-        else System.out.println("Unrecognized action "+action);
+        else if (action.equals("abwq")) {
+            AB ab = new AB(bot, TestAB.sample_file);
+            ab.abwq();
+        } else if (action.equals("test")) {
+            TestAB.runTests(bot, MagicBooleans.trace_mode);
+        } else if (action.equals("shadow")) {
+            MagicBooleans.trace_mode = false;
+            bot.shadowChecker();
+        } else System.out.println("Unrecognized action " + action);
     }
+
     public static void convert(Bot bot, String action) {
         if (action.equals("aiml2csv")) bot.writeAIMLIFFiles();
         else if (action.equals("csv2aiml")) bot.writeAIMLFiles();
     }
 
 
-    public static void getGloss (Bot bot, String filename) {
+    public static void getGloss(Bot bot, String filename) {
         System.out.println("getGloss");
-        try{
+        try {
             // Open the file that is the first
             // command line parameter
             File file = new File(filename);
@@ -104,11 +108,12 @@ public class Main {
                 getGlossFromInputStream(bot, fstream);
                 fstream.close();
             }
-        }catch (Exception e){//Catch exception if any
+        } catch (Exception e) {//Catch exception if any
             System.err.println("Error: " + e.getMessage());
         }
     }
-    public static void getGlossFromInputStream (Bot bot, InputStream in)  {
+
+    public static void getGlossFromInputStream(Bot bot, InputStream in) {
         System.out.println("getGlossFromInputStream");
         BufferedReader br = new BufferedReader(new InputStreamReader(in));
         String strLine;
@@ -117,24 +122,24 @@ public class Main {
         HashMap<String, String> def = new HashMap<String, String>();
         try {
             //Read File Line By Line
-            String word; String gloss;
+            String word;
+            String gloss;
             word = null;
             gloss = null;
-            while ((strLine = br.readLine()) != null)   {
+            while ((strLine = br.readLine()) != null) {
 
                 if (strLine.contains("<entry word")) {
-                    int start = strLine.indexOf("<entry word=\"")+"<entry word=\"".length();
+                    int start = strLine.indexOf("<entry word=\"") + "<entry word=\"".length();
                     //int end = strLine.indexOf(" status=");
                     int end = strLine.indexOf("#");
 
                     word = strLine.substring(start, end);
-                    word = word.replaceAll("_"," ");
+                    word = word.replaceAll("_", " ");
                     System.out.println(word);
 
-                }
-                else  if (strLine.contains("<gloss>")) {
-                    gloss = strLine.replaceAll("<gloss>","");
-                    gloss = gloss.replaceAll("</gloss>","");
+                } else if (strLine.contains("<gloss>")) {
+                    gloss = strLine.replaceAll("<gloss>", "");
+                    gloss = gloss.replaceAll("</gloss>", "");
                     gloss = gloss.trim();
                     System.out.println(gloss);
 
@@ -143,30 +148,31 @@ public class Main {
 
                 if (word != null && gloss != null) {
                     word = word.toLowerCase().trim();
-                    if (gloss.length() > 2) gloss = gloss.substring(0, 1).toUpperCase()+gloss.substring(1, gloss.length());
+                    if (gloss.length() > 2)
+                        gloss = gloss.substring(0, 1).toUpperCase() + gloss.substring(1, gloss.length());
                     String definition;
-                    if (def.keySet().contains(word))  {
+                    if (def.keySet().contains(word)) {
                         definition = def.get(word);
-                        definition = definition+"; "+gloss;
-                    }
-                    else definition = gloss;
+                        definition = definition + "; " + gloss;
+                    } else definition = gloss;
                     def.put(word, definition);
                     word = null;
                     gloss = null;
                 }
             }
-            Category d = new Category(0,"WNDEF *","*","*","unknown","wndefs"+filecnt+".aiml");
+            Category d = new Category(0, "WNDEF *", "*", "*", "unknown", "wndefs" + filecnt + ".aiml");
             bot.brain.addCategory(d);
             for (String x : def.keySet()) {
                 word = x;
-                gloss = def.get(word)+".";
+                gloss = def.get(word) + ".";
                 cnt++;
-                if (cnt%5000==0) filecnt++;
+                if (cnt % 5000 == 0) filecnt++;
 
-                Category c = new Category(0,"WNDEF "+word,"*","*",gloss,"wndefs"+filecnt+".aiml");
-                System.out.println(cnt+" "+filecnt+" "+c.inputThatTopic()+":"+c.getTemplate()+":"+c.getFilename());
+                Category c = new Category(0, "WNDEF " + word, "*", "*", gloss, "wndefs" + filecnt + ".aiml");
+                System.out.println(cnt + " " + filecnt + " " + c.inputThatTopic() + ":" + c.getTemplate() + ":" + c.getFilename());
                 Nodemapper node;
-                if ((node = bot.brain.findNode(c)) != null) node.category.setTemplate(node.category.getTemplate()+","+gloss);
+                if ((node = bot.brain.findNode(c)) != null)
+                    node.category.setTemplate(node.category.getTemplate() + "," + gloss);
                 bot.brain.addCategory(c);
 
 
@@ -176,7 +182,7 @@ public class Main {
         }
     }
 
-    public static void sraixCache (String filename, Chat chatSession) {
+    public static void sraixCache(String filename, Chat chatSession) {
         int limit = 1000;
         try {
             FileInputStream fstream = new FileInputStream(filename);

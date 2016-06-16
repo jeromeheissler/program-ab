@@ -37,8 +37,7 @@ public class Tuple extends HashMap<String, String> {
             if (!tuple.visibleVars.contains(x)) {
                 //System.out.println("Tuple: "+name+"!="+tuple.name+" because !tuple.visibleVars.contains("+x+")");
                 return false;
-            }
-            else if (get(x) != null && !get(x).equals(tuple.get(x))) {
+            } else if (get(x) != null && !get(x).equals(tuple.get(x))) {
                 //System.out.println("Tuple: "+name+"!="+tuple.name+" because get("+x+")="+get(x)+" and tuple.get("+x+")="+tuple.get(x));
                 return false;
             }
@@ -65,7 +64,7 @@ public class Tuple extends HashMap<String, String> {
     }
 
 
-    public Tuple (HashSet<String> varSet, HashSet<String> visibleVars, Tuple tuple) {
+    public Tuple(HashSet<String> varSet, HashSet<String> visibleVars, Tuple tuple) {
         super();
         //System.out.println("varSet="+varSet);
         //System.out.println("visbileVars="+visibleVars);
@@ -77,14 +76,16 @@ public class Tuple extends HashMap<String, String> {
         if (varSet != null) {
             for (String key : varSet) put(key, MagicStrings.unbound_variable);
         }
-        name = "tuple"+index;
+        name = "tuple" + index;
         index++;
         tupleMap.put(name, this);
     }
-    public Tuple (Tuple tuple) {
+
+    public Tuple(Tuple tuple) {
         this(null, null, tuple);
     }
-    public Tuple (HashSet<String> varSet, HashSet<String> visibleVars) {
+
+    public Tuple(HashSet<String> varSet, HashSet<String> visibleVars) {
         this(varSet, visibleVars, null);
     }
 
@@ -95,11 +96,12 @@ public class Tuple extends HashMap<String, String> {
     public String printVars() {
         String result = "";
         for (String x : getVars()) {
-            if (visibleVars.contains(x)) result = result + " "+x;
-            else result = result + " [" + x +"]";
+            if (visibleVars.contains(x)) result = result + " " + x;
+            else result = result + " [" + x + "]";
         }
         return result;
     }
+
     public String getValue(String var) {
         String result = get(var);
         if (result == null) return MagicStrings.default_get;
@@ -108,14 +110,15 @@ public class Tuple extends HashMap<String, String> {
 
     public void bind(String var, String value) {
         if (get(var) != null && !get(var).equals(MagicStrings.unbound_variable))
-            System.out.println(var+" already bound to "+get(var));
+            System.out.println(var + " already bound to " + get(var));
         else put(var, value);
 
     }
-    public String printTuple () {
+
+    public String printTuple() {
         String result = "\n";
         for (String x : keySet()) {
-            result += x+"="+get(x)+"\n";
+            result += x + "=" + get(x) + "\n";
         }
         return result.trim();
     }
